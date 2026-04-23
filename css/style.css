@@ -29,7 +29,7 @@ body {
 }
 
 .logo__img {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 .title-group {
@@ -61,6 +61,17 @@ body {
     background-color: rgb(185, 255, 153);
     transform: translateY(2px);
     transition: all .3s;
+}
+
+.items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.item:not(:last-child){
+    padding-bottom: 10px;
 }
 
 @media (max-width: 600px) {
