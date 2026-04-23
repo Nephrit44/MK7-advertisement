@@ -89,13 +89,14 @@ body {
 
     .button {
         max-width: 300px;
+        font-size: 12px;
     }
 }
 
 @media (max-width: 600px) {
     body {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 }
