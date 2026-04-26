@@ -58,45 +58,28 @@ body {
     font-size: 42px;
 }
 
-.button {
-    border-radius: 10px;
-    padding: 15px;
-    text-decoration: none;
-    color: inherit;
+.card {
     min-width: 400px;
-    box-shadow: 1px 1px 15px rgb(99, 99, 99);
+    box-shadow: 1px 1px 5px #ccc;
 }
 
-.button:hover {
-    background-color: rgb(185, 255, 153);
-    transform: translateY(1px);
-    transition: all .3s;
+.card-img-top {
+    min-height: 300px;
 }
 
-.subBlock {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 10px;
-    margin-bottom: 20px;
-    background-color: rgb(230, 199, 255);
-    border-radius: 10px;
-    padding: 5px;
+.card-text--style {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.block__date {
-    text-align: center;
+.card-body {
+    background-color: #d1e7dd;
+    max-height: 142px;
 }
 
-.items {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-}
-
-.item:not(:last-child) {
-    padding-bottom: 10px;
+.list-group-item {
+    min-height: 64px;
 }
 
 @media (max-width: 1220px) {
